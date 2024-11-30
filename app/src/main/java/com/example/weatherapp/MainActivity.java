@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fetchWeatherData(String city) {
-        String apiKey = "1119bc99cc4708987a7b8366b246fcb7"; // Replace with your OpenWeatherMap API key
+        String apiKey = "1119bc99cc4708987a7b8366b246fcb7";
         String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appId=" + apiKey + "&units=metric";
 
         RequestQueue queue = Volley.newRequestQueue(this);
@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            // Parse the JSON response
                             JSONObject main = response.getJSONObject("main");
                             double temp = main.optDouble("temp", 0);
                             double tempMin = main.optDouble("temp_min", 0);
