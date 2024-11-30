@@ -4,6 +4,8 @@
 
 This is a simple and user-friendly Weather Forecast app built using Android Studio. It allows users to get accurate, real-time weather information for any city across the globe by leveraging the OpenWeatherMap API.
 
+Click the link to see the working video: https://drive.google.com/file/d/1pyULuFNETXw4bSTqaxmgiwVRpUdzwQTW/view?usp=sharing
+
 ## Features:
 Search by City: Enter the name of any city to fetch its weather data.
 Real-time Updates: Displays minimum and maximum temperature, "feels like" temperature, humidity, and atmospheric pressure.
