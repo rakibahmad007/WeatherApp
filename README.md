@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-### 213022-RAKIBAHMAD-CSE464-1 ASSIGNMETN 3
+### 213022-RAKIBAHMAD-CSE464-1 ASSIGNMENT 3
 
 This is a simple and user-friendly Weather Forecast app built using Android Studio. It allows users to get accurate, real-time weather information for any city across the globe by leveraging the OpenWeatherMap API.
 
