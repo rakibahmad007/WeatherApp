@@ -52,10 +52,8 @@ public class MainActivity extends AppCompatActivity {
         String apiKey = "1119bc99cc4708987a7b8366b246fcb7"; // Replace with your OpenWeatherMap API key
         String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appId=" + apiKey + "&units=metric";
 
-        // Create a Volley request queue
         RequestQueue queue = Volley.newRequestQueue(this);
 
-        // Create a JSON object request
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -71,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
                             int pressure = main.optInt("pressure", 0);
 
 
-                            // Update the TextViews with the weather data
                             tempTextView.setText(String.format("Temp: %.2f°C", temp));
                             minTextView.setText(String.format("Min: %.2f°C", tempMin));
                             maxTextView.setText(String.format("Max: %.2f°C", tempMax));
@@ -94,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        // Add the request to the queue
         queue.add(jsonObjectRequest);
     }
 }
