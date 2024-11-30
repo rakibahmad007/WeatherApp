@@ -1,0 +1,17 @@
+<resources>
+    <string name="search">SEARCH: </string>
+    <string name="app_name">WeatherApp</string>
+    <string name="temp">TEMPERATURE:</string>
+    <string name="min">MINIMUM:</string>
+    <string name="max">MAXIMUM: </string>
+    <string name="feels">FEELS LIKE: </string>
+    <string name="humidity">HUMIDITY: </string>
+    <string name="pressure">PRESSURE: </string>
+
+
+
+
+
+
+
+</resources>
